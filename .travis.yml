@@ -15,7 +15,7 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - docker build -t simple-express .
+  - docker build -t khoadd6-udagram-simple-express .
   - docker tag khoadd6-udagram-simple-express dinhdangkhoa0201/khoadd6-udagram-simple-express:latest
 
 after_success:
